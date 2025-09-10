@@ -1,5 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
+
+//T.C :- O(F * L)
+// F = Friendship array, L=Language array
+
+// S.C :- O(n)
 class Solution {
 public:
     int minimumTeachings(int n, vector<vector<int>>& languages, vector<vector<int>>& friendships) {
